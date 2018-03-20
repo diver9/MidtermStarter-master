@@ -1,0 +1,58 @@
+package com.cisc181.core;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.cisc181.eNums.eTitle;
+
+import java.util.Date;
+public class Staff_Test {
+
+	@BeforeClass
+	public static void setup() {
+	}
+	
+	@Test
+	public void testStaffAverageSalery() throws PersonException {
+		ArrayList<Staff> TestStaff = new ArrayList<Staff>();
+		Staff A = new Staff("Alina", "Jean", "Christenbury", new Date(1996, 12, 16), "17 Christiana Drive, Newark, DE",
+				"3026482117", "alina.christenbury@gmail.com", "None", 1, 5000.00, new Date(2016, 10, 3), eTitle.MS);
+		TestStaff.add(A);
+
+		Staff B = new Staff("Brenna", "Nicole", "Christenbury", new Date(1998, 9, 23),
+				"30951 Hickory Hill Rd, Millsboro, DE", "3023814765", "brenna.c797@gmail.com", "None", 2, 4000.00,
+				new Date(2000, 1, 1), eTitle.MS);
+		TestStaff.add(B);
+
+		Staff C = new Staff("Carina", "Lynn", "Christenbury", new Date(2001, 1, 5), "30504 Oak Ridge Dr, Millsboro, DE",
+				"3025421673", "carina.christenbury@gmail.com", "None", 3, 3000.00, new Date(2000, 1, 1), eTitle.MS);
+		TestStaff.add(C);
+
+		Staff D = new Staff("Delina", "Woodley Renee", "Christenbury", new Date(2003, 10, 5),
+				"30504 Oak Ridge Dr, Millsboro, DE", "3026630222", "dd.christenbury@gmail.com", "None", 4, 2000.00,
+				new Date(2000, 1, 1), eTitle.MS);
+		TestStaff.add(D);
+
+		Staff E = new Staff("Elianna", "Elizabeth", "Christenbury", new Date(2005, 9, 23),
+				"30951 Hickory Hill Rd, Millsboro, DE", "3026630222", "elie.christenbury@gmail.com", "None", 5, 1000.00,
+				new Date(2001, 1, 1), eTitle.MS);
+		TestStaff.add(E);
+
+		double totalSalary = 0;
+		for (Staff s : TestStaff) {
+			totalSalary += s.getSalary();
+		}
+		totalSalary /= 5;
+
+		int t = (int) totalSalary;
+
+		assertEquals(t, 3000);
+	}
+
+}

@@ -1,0 +1,106 @@
+2018-03-20 05:34:43,326 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-20 05:35:46,592 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:MidtermStarterProject:0.0.1-SNAPSHOT @ C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\pom.xml.
+2018-03-20 05:35:46,592 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:MidtermStarterProject:0.0.1-SNAPSHOT @ C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\pom.xml.
+2018-03-20 05:35:50,958 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 05:35:50,966 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 05:35:51,156 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 05:35:51,157 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 05:35:53,762 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:MidtermStarterProject:0.0.1-SNAPSHOT @ C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\pom.xml.
+2018-03-20 05:35:53,782 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 05:35:53,794 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 05:35:53,823 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 05:35:53,823 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 05:35:55,211 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 05:35:55,211 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 05:35:55,213 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 05:35:55,214 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 05:42:52,628 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-20 07:08:03,026 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:08:03,038 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 07:08:03,055 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:08:03,056 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:14:26,402 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:14:26,416 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 07:14:26,419 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:14:26,419 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:25:49,637 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-20 07:30:13,960 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:30:13,969 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 07:30:13,981 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:30:13,982 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:33:41,201 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:33:41,208 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 07:33:41,211 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:33:41,211 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:34:26,748 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:34:26,748 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 07:34:26,751 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:34:26,751 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:40:38,487 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:40:38,494 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 07:40:38,497 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:40:38,641 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:41:52,093 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:41:52,095 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 07:41:52,099 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:41:52,155 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:42:42,332 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:42:42,482 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 07:42:42,516 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:42:42,521 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:44:48,865 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:44:48,866 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 07:44:49,008 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:44:49,057 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:46:22,747 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:46:22,775 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 07:46:22,793 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:46:22,805 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 07:46:44,696 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:46:44,696 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 07:46:44,698 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 07:46:44,732 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:04:01,793 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:04:01,802 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 08:04:01,813 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:04:01,821 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:10:43,339 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:10:43,341 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 08:10:43,343 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:10:43,365 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:14:39,235 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:14:39,236 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-20 08:14:39,248 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:14:39,258 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:15:19,705 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:15:19,705 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 08:15:19,706 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:15:19,714 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:20:38,324 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:20:38,338 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 08:20:38,349 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:20:38,358 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:23:54,805 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:23:54,806 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 08:23:54,807 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:23:54,814 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:25:05,207 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:25:05,212 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 08:25:05,221 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:25:05,227 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:27:14,708 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:27:14,709 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 08:27:14,713 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:27:14,722 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:30:38,774 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:30:38,780 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 08:30:38,788 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:30:38,803 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:38:38,722 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:38:38,722 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 08:38:38,724 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:38:38,730 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources
+2018-03-20 08:41:09,897 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:41:09,907 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-20 08:41:09,921 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-20 08:41:09,933 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\diver9\Desktop\MidtermStarter-master\Midterm Coding Project\src\test\resources

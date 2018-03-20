@@ -1,0 +1,212 @@
+package com.cisc181.core;
+
+import static org.junit.Assert.*;
+
+import java.sql.Date;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.UUID;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.cisc181.eNums.eMajor;
+
+public class Student_Test {
+
+	@BeforeClass
+	public static void setup() {
+		try {
+		Course c1 = new Course(UUID.randomUUID(), "CISC", 2);
+		Course c2 = new Course(UUID.randomUUID(), "ELEG", 3);
+		Course c3 = new Course(UUID.randomUUID(), "MATH", 4);
+
+		ArrayList<Course> LCourse = new ArrayList<Course>();
+		LCourse.add(c1);
+		LCourse.add(c2);
+		LCourse.add(c3);
+
+		Semester fall = new Semester(UUID.randomUUID(), new Date(2001, 9, 1), new Date(2002, 12, 1));
+		Semester spring = new Semester(UUID.randomUUID(), new Date(2002, 2, 1), new Date(2002, 5, 30));
+
+		ArrayList<Semester> LSemester = new ArrayList<Semester>();
+		LSemester.add(fall);
+		LSemester.add(spring);
+
+
+		Section s1 = new Section(UUID.randomUUID(), UUID.randomUUID(), UUID.randomUUID(), 1);
+		Section s2 = new Section(UUID.randomUUID(), UUID.randomUUID(), UUID.randomUUID(), 2);
+		Section s3 = new Section(UUID.randomUUID(), UUID.randomUUID(), UUID.randomUUID(), 3);
+		Section s4 = new Section(UUID.randomUUID(), UUID.randomUUID(), UUID.randomUUID(), 4);
+		Section s5 = new Section(UUID.randomUUID(), UUID.randomUUID(), UUID.randomUUID(), 5);
+		Section s6 = new Section(UUID.randomUUID(), UUID.randomUUID(), UUID.randomUUID(), 6);
+
+		ArrayList<Section> LSection = new ArrayList<Section>();
+		LSection.add(s1);
+		LSection.add(s2);
+		LSection.add(s3);
+		LSection.add(s4);
+		LSection.add(s5);
+		LSection.add(s6);
+		Student A = new Student("A", "A", "A", new Date(1996, 01, 01), eMajor.COMPSI,
+				"A", "1234567890", "A");
+
+		Student B = new Student("B", "B", "B", new Date(1996, 01, 01), eMajor.COMPSI,
+				"B", "1234567890", "B");
+
+		Student C = new Student("C", "C", "C", new Date(1996, 01, 01), eMajor.COMPSI,
+				"C", "1234567890", "C");
+
+		Student D = new Student("D", "D", "D", new Date(1996, 01, 01), eMajor.COMPSI,
+				"D", "1234567890", "D");
+
+		Student E = new Student("E", "E", "E", new Date(1996, 01, 01), eMajor.COMPSI,
+				"E", "1234567890", "E");
+		Student F = new Student("F", "F", "F", new Date(1996, 01, 01), eMajor.COMPSI,
+				"F", "1234567890", "F");
+		Student G = new Student("G", "G", "G", new Date(1996, 01, 01), eMajor.COMPSI,
+				"G", "1234567890", "G");
+		Student H = new Student("H", "H", "H", new Date(1996, 01, 01), eMajor.COMPSI,
+				"H", "1234567890", "H");
+		Student I = new Student("A", "A", "A", new Date(1996, 01, 01), eMajor.COMPSI,
+				"A", "1234567890", "A");
+		Student J = new Student("A", "A", "A", new Date(1996, 01, 01), eMajor.COMPSI,
+				"A", "1234567890", "A");
+
+		ArrayList<Student> LStudent = new ArrayList<Student>();
+		 LStudent.add(A);
+		 LStudent.add(B);
+		 LStudent.add(C);
+		 LStudent.add(D);
+		 LStudent.add(E);
+		 LStudent.add(F);
+		 LStudent.add(G);
+		 LStudent.add(H);
+		 LStudent.add(I);
+		 LStudent.add(J);
+		 
+		 
+		Enrollment enrollingAs1 = new Enrollment(s1.getSectionID(), A.getStudentID());
+		enrollingAs1.setGrade(100);
+		Enrollment enrollingAs2 = new Enrollment(s2.getSectionID(), A.getStudentID());
+		enrollingAs2.setGrade(100);
+		Enrollment enrollingAs3 = new Enrollment(s3.getSectionID(), A.getStudentID());
+		enrollingAs3.setGrade(100);
+		assertEquals(((enrollingAs1.getGrade() + enrollingAs2.getGrade() + enrollingAs3.getGrade()) / 3), 100);
+
+		
+		Enrollment enrollingBs1 = new Enrollment(s1.getSectionID(), B.getStudentID());
+		enrollingBs1.setGrade(90);
+		Enrollment enrollingBs2 = new Enrollment(s2.getSectionID(), B.getStudentID());
+		enrollingBs2.setGrade(90);
+		Enrollment enrollingBs3 = new Enrollment(s3.getSectionID(), B.getStudentID());
+		enrollingBs3.setGrade(90);
+
+		Enrollment enrollingCs2 = new Enrollment(s2.getSectionID(), C.getStudentID());
+		enrollingCs2.setGrade(80);
+		Enrollment enrollingCs3 = new Enrollment(s3.getSectionID(), C.getStudentID());
+		enrollingCs3.setGrade(80);
+		Enrollment enrollingCs4 = new Enrollment(s4.getSectionID(), C.getStudentID());
+		enrollingCs4.setGrade(80);
+
+		assertEquals(((enrollingCs2.getGrade() + enrollingCs3.getGrade() + enrollingCs4.getGrade()) / 3), 80);
+
+		Enrollment enrollingDs2 = new Enrollment(s2.getSectionID(), D.getStudentID());
+		enrollingDs2.setGrade(70);
+		Enrollment enrollingDs3 = new Enrollment(s3.getSectionID(), D.getStudentID());
+		enrollingDs3.setGrade(70);
+		Enrollment enrollingDs4 = new Enrollment(s4.getSectionID(), D.getStudentID());
+		enrollingDs4.setGrade(70);
+
+		assertEquals(((enrollingDs2.getGrade() + enrollingDs3.getGrade() + enrollingDs4.getGrade()) / 3), 70);
+
+		Enrollment enrollingEs3 = new Enrollment(s3.getSectionID(), E.getStudentID());
+		enrollingEs3.setGrade(60);
+		Enrollment enrollingEs4 = new Enrollment(s4.getSectionID(), E.getStudentID());
+		enrollingEs4.setGrade(60);
+		Enrollment enrollingEs5 = new Enrollment(s5.getSectionID(), E.getStudentID());
+		enrollingEs5.setGrade(60);
+
+		assertEquals(((enrollingEs3.getGrade() + enrollingEs4.getGrade() + enrollingEs5.getGrade()) / 3), 60);
+
+		Enrollment enrollingFs3 = new Enrollment(s3.getSectionID(), F.getStudentID());
+		enrollingFs3.setGrade(50);
+		Enrollment enrollingFs4 = new Enrollment(s4.getSectionID(), F.getStudentID());
+		enrollingFs4.setGrade(50);
+		Enrollment enrollingFs5 = new Enrollment(s5.getSectionID(), F.getStudentID());
+		enrollingFs5.setGrade(50);
+
+		assertEquals(((enrollingFs3.getGrade() + enrollingFs4.getGrade() + enrollingFs5.getGrade()) / 3), 50);
+
+		Enrollment enrollingGs4 = new Enrollment(s4.getSectionID(), G.getStudentID());
+		enrollingGs4.setGrade(40);
+		Enrollment enrollingGs5 = new Enrollment(s5.getSectionID(), G.getStudentID());
+		enrollingGs5.setGrade(40);
+		Enrollment enrollingGs6 = new Enrollment(s6.getSectionID(), G.getStudentID());
+		enrollingGs6.setGrade(40);
+
+		assertEquals(((enrollingGs4.getGrade() + enrollingGs5.getGrade() + enrollingGs6.getGrade()) / 3), 40);
+
+		Enrollment enrollingC1s4 = new Enrollment(s4.getSectionID(), H.getStudentID());
+		enrollingC1s4.setGrade(30);
+		Enrollment enrollingC1s5 = new Enrollment(s5.getSectionID(), H.getStudentID());
+		enrollingC1s5.setGrade(30);
+		Enrollment enrollingC1s6 = new Enrollment(s6.getSectionID(), H.getStudentID());
+		enrollingC1s6.setGrade(30);
+
+		assertEquals(((enrollingC1s4.getGrade() + enrollingC1s5.getGrade() + enrollingC1s6.getGrade()) / 3), 30);
+
+		Enrollment enrollingD1s1 = new Enrollment(s1.getSectionID(), I.getStudentID());
+		enrollingD1s1.setGrade(10);
+		Enrollment enrollingD1s3 = new Enrollment(s2.getSectionID(), I.getStudentID());
+		enrollingD1s3.setGrade(10);
+		Enrollment enrollingD1s5 = new Enrollment(s5.getSectionID(), I.getStudentID());
+		enrollingD1s5.setGrade(10);
+
+		assertEquals(((enrollingD1s1.getGrade() + enrollingD1s3.getGrade() + enrollingD1s5.getGrade()) / 3), 10);
+
+		Enrollment enrollingE1s2 = new Enrollment(s2.getSectionID(), J.getStudentID());
+		enrollingE1s2.setGrade(0);
+		Enrollment enrollingE1s4 = new Enrollment(s4.getSectionID(), J.getStudentID());
+		enrollingE1s4.setGrade(0);
+		Enrollment enrollingE1s6 = new Enrollment(s6.getSectionID(), J.getStudentID());
+		enrollingE1s6.setGrade(0);
+
+		
+		assertEquals(((enrollingBs1.getGrade() + enrollingBs2.getGrade() + enrollingBs3.getGrade()) / 3), 90);
+		
+		assertEquals(((enrollingE1s2.getGrade() + enrollingE1s4.getGrade() + enrollingE1s6.getGrade()) / 3), 0);
+
+		assertEquals(((enrollingFs3.getGrade() + enrollingFs4.getGrade() + enrollingFs5.getGrade()) / 3), 50);
+
+//======================
+
+		assertEquals(((enrollingAs1.getGrade() + enrollingBs1.getGrade() + enrollingD1s1.getGrade()) / 3),
+				(200 / 3));
+
+		assertEquals(((enrollingAs2.getGrade() + enrollingBs2.getGrade() + enrollingCs2.getGrade()
+				+ enrollingDs2.getGrade() + enrollingE1s2.getGrade()) / 5), 68);
+
+		assertEquals(((enrollingAs3.getGrade() + enrollingBs3.getGrade() + enrollingCs3.getGrade()
+				+ enrollingDs3.getGrade() + enrollingEs3.getGrade() + enrollingFs3.getGrade()
+				+ enrollingD1s3.getGrade()) / 7), (460 / 7));
+
+		assertEquals(((enrollingCs4.getGrade() + enrollingDs4.getGrade() + enrollingEs4.getGrade()
+				+ enrollingFs4.getGrade() + enrollingGs4.getGrade() + enrollingC1s4.getGrade()
+				+ enrollingE1s4.getGrade()) / 3), (330 / 7));
+
+		assertEquals(((enrollingEs5.getGrade() + enrollingFs5.getGrade() + enrollingGs5.getGrade()
+				+ enrollingC1s5.getGrade() + enrollingD1s5.getGrade()) / 3), 38);
+	}catch (PersonException e) {
+		e.printStackTrace();
+	}
+	}
+
+	@Test
+	public void test() {
+			
+		
+
+		
+		}	
+	}
